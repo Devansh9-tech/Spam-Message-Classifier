@@ -29,3 +29,8 @@ Run "pip install -r requirements.txt" in terminal to install and project runs id
 =======
 # Spam-Message-Classifier
 
+## Known Limitations
+- **Dataset bias:** Trained on the UCI SMS Spam Collection (UK-based, historical dataset). It does not include India-specific scam patterns such as Aadhaar/PAN phishing, UPI fraud, or OTP scams — these are common attack vectors in India today but underrepresented in this training data.
+- **Example failure case:** A message requesting Aadhaar/PAN details via a link was misclassified as legitimate (confidence score near the decision boundary at 0.02), since the model never saw this scam pattern during training.
+- **Next step:** Retrain on a dataset that includes India-specific smishing examples to close this gap — this is the direction of the author's more advanced smishing detector project.
+
