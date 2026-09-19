@@ -1,3 +1,4 @@
+
 # Spam/Scam Message Classifier
 
 A machine learning web app that classifies SMS/text messages as spam or legitimate in real time.
@@ -25,3 +26,6 @@ Trained on the UCI SMS Spam Collection dataset (5,572 labeled messages). Compare
 ## Run Locally
 
 Run "pip install -r requirements.txt" in terminal to install and project runs identically on their machine.
+=======
+# Spam-Message-Classifier
+
