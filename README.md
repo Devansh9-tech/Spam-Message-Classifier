@@ -25,7 +25,7 @@ Trained on the UCI SMS Spam Collection dataset (5,572 labeled messages). Compare
 
 ## Run Locally
 
-Run "pip install -r requirements.txt" in terminal to install and project runs identically on their machine.
+Run "pip install -r requirements.txt" in terminal to install and project runs identically in your machine.
 =======
 # Spam-Message-Classifier
 
